@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: shop_source
+    database: DBT_CLOUD_HANI
+    schema: RAW_HANI_SCHEMA
+    tables:
+      - name: ORDERS
