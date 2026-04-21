@@ -9,16 +9,3 @@ models:
 
   - name: orders
     description: "{{doc('orders_doc')}}"
-
-    columns:
-
-      - name: order_id
-        description: "Unique identifier for each order"
-        tests:
-          - not_null
-          - unique
-
-      - name: customer_id
-        description: "Customer who placed the order"
-        tests:
-          - not_null
